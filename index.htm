@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="It is better when comes in 10. i-mix Hi-10" />
+    <meta name="keywords" content="i-mix,hi-10,vitamin,html5,canvas,fusion beverage" />
+    <meta name="author" content="NuttyKnot" />
+    <title>It is better when comes in 10 | i-mix Hi-10</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <link href='//fonts.googleapis.com/css?family=Droid+Sans:b|Josefin+Slab:700&amp;subset=latin' rel='stylesheet' type='text/css'>
+    <link href="dot.css" rel="stylesheet" type="text/css">        
+    <!--[if IE]>
+    <script src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js"></script>
+    <script>
+     window.attachEvent("onload", function() {CFInstall.check({mode: "overlay"});});
+    </script>
+    <![endif]-->
+</head>
+<body>
+    <div id="fb-root">
+        <div id="header_container">
+            <div id="header" class="highlight">It is better when comes in 10</div>
+            <div id="status"></div>
+        </div>
+        <div class="imix_info">
+            <div class="imix_img">
+                <img alt="i-mix sala-lime" src="http://www.fusionbeverage.com/fileupload/product/images1/salalime_1278155644.png">
+            </div>
+            <div class="imix_text">
+                <div class="product_title">i-mix Hi-10 sala-lime<br/><span class="uppercase">Comes with 10 essential vitamins!</span></div>
+                <div class="underline product_info"><a href="http://www.fusionbeverage.com/products_detail_en.php?id=28" style="">Taste me!</a></div>
+            </div>
+        </div>
+        <div id="login" class="fb-login-button" data-show-faces="true" data-width="310" data-max-rows="1"></div>
+        <div id="main_container">
+            <div id="mix">
+            0
+            </div>
+            <div class="popup"></div>
+            <div class="overlay">
+                <div class="text">
+                    <div class="before_start">
+                        Use direction keys to control the dot!<br/>
+                        Collect 10 <a target="_blank" id="vitamin_link" href="http://en.wikipedia.org/wiki/Vitamin"><span class="hover"><span class="black">"</span>V<span class="black">"</span>itamins</span></a> to double the score!!!
+                    </div>
+                    <div class="pause">
+                        <div id="pause_sign">||</div>
+                        <div id="pause_text">pause</div>
+                    </div>
+                    <div class="lost">
+                        <span id="onLostContainer"><span id="score_text">score</span>/<span id="submit_text">submit</span>/<span id="retry_text">retry</span></span><br/><div id="score2"></div><div id="facebook">facebook</div>
+                    </div>
+                </div>
+                <div class="screen">
+                </div>
+            </div>
+            <canvas id="canvas" width="1000" height="500">
+                <p>Your browser doesn't support canvas.</p>
+            </canvas>
+            <canvas id="buffer_canvas" width="1000" height="500">
+                <p>Your browser doesn't support canvas.</p>
+            </canvas>
+        </div>
+        <div id="score_container">
+            <div id="score_sub">
+                <div id="score_banner">score</div>
+                <div id="score">66</div>
+            </div>
+            <span id="mul_sign">x</span>
+            <div id="multi_sub">
+                <div id="multiplier">1</div><div id="multiplier_banner">multiplier</div>
+            </div>
+            <span id="eq_sign">=</span>
+            <span id="grand_total">0</span>
+        </div>
+        <div id="credit">
+            <a href="http://nuttyknot.com">Made by <span class="underline">@NuttyKnot</span> with &hearts;</a> | <a rel="license" target="_blank" href="http://creativecommons.org/licenses/by-nc-sa/3.0/th/"><img alt="Creative Commons License" style="border-width:0" src="cc80x15.png" /></a> | <a target="_blank" href="http://www.partnersinrhyme.com">Music from <span class="underline">Partners In Rhyme</span></a>
+        </div>
+        <audio preload="auto" autobuffer controls loop id="audio">
+            <source src="Foogies.mp3" type="audio/mpeg" />
+            <source src="Foogies.ogg" type="audio/ogg" />
+            <source src="Foogies.wav" type="audio/wav" />
+            <applet code="com.fluendo.player.Cortado.class" archive="cortado_latest.jar" width="320" height="240">
+                <param name="url" value="Foogies.ogg"/>
+                <param name="video" value="false"/>
+            </applet>
+        </audio>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>
+    <script src="dot.min.js"></script>
+    <script src="//connect.facebook.net/en_US/all.js"></script>
+    <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-4890412-9']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+    </script>
+</body>
+</html>

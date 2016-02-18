@@ -1,0 +1,50 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0}
+body{line-height:1;background:#A7DBD8;overflow-x:hidden;font-family:'Droid Sans',Arial,Helvetica,sans-serif;cursor:default;padding:0 0 0 10px}
+ol,ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+:focus{outline:0}
+ins{text-decoration:none}
+del{text-decoration:line-through}
+table{border-collapse:collapse;border-spacing:0}
+a:link,a:active,a:visited{color:#000;text-decoration:none}
+#main_container{clear:both;height:500px;position:relative;width:1000px;border:1px solid #000;-moz-box-shadow:10px 10px 5px #888;-webkit-box-shadow:10px 10px 5px #888;box-shadow:10px 10px 5px #888;background:#FFF}
+#mix{font-size:2.5em;font-weight:900;left:94%;position:absolute;top:90%;display:none}
+.spin{-moz-transform:rotate(360deg) scale(2);-webkit-transform:rotate(360deg) scale(2);-o-transform:rotate(360deg) scale(2)}
+#header_container{color:#FA6900;font-size:1.5em;font-weight:900;letter-spacing:-.03em;margin:-5px 0 5px;padding:25px 0 10px}
+#header_container .highlight{font-size:3.5em;letter-spacing:-.08em;margin:-20px 0 0}
+.uppercase{text-transform:uppercase}
+.overlay{height:100%;position:absolute;width:100%;cursor:pointer}
+.overlay .text{color:#FFF;font-size:5.25em;font-weight:900;letter-spacing:-.05em;position:absolute;z-index:10}
+.overlay .screen{background:#000;height:100%;opacity:0.6;width:100%}
+#score_container{font-size:2em;font-weight:900;display:none;text-align:center;padding:5px 0 10px 30px}
+#mul_sign,#eq_sign{color:#444}
+#login{position:absolute;right:0;top:0}
+.imix_info{height:230px;font-weight:900;font-size:5.25em;display:none;padding:0 0 20px}
+.imix_text{padding:0 0 10px 10px}
+.product_title{color:#888;font-size:.6em}
+.product_info{font-size:.6em}
+#eq_sign{position:relative;top:2.5em}
+#multiplier_banner,#score_banner{color:#888}
+#score,#multiplier{font-size:2.5em}
+#grand_total{font-size:3.5em;padding:0 0 0 20px}
+#onLostContainer{font-size:.8em}
+#score_text{margin:0 15px 0 0}
+#submit_text{color:#000;margin:0 15px}
+#retry_text{color:#888;margin:0 0 0 15px}
+#score2,#facebook{font-size:2em;position:relative;top:-30px}
+#score2{margin:40px 0 0 30px}
+.before_start{padding:10px 0 0}
+#credit{clear:both;padding:10px 0}
+#facebook{display:none;background-color:#274584;color:#fff;font-family:Tahoma,Geneva,Kalimati,sans-serif;width:952px;margin:40px 0 0;padding:0 0 0 50px}
+#audio,.overlay .text .lost,.overlay .text .pause,#buffer_canvas,#login{display:none}
+#pause_text{-webkit-transform:rotate(-90deg);-o-transform:rotate(-90deg);-moz-transform:rotate(-90deg);filter:progid:DXImageTransform.Microsoft.BasicImage(rotation=3);color:#000;font-size:.8em;left:.44em;position:absolute;text-transform:uppercase;top:3em}
+#pause_sign{font-size:5em}
+.unpause{left:-.29em!important;top:3.7em!important}
+.grey{color:#888!important}
+#score_text,#score2{cursor:default}
+#vitamin_link{color:#FFF}
+.black{color:#000!important}
+.popup{position:absolute;font-size:3em;font-family:'Josefin Slab','Times New Roman', Times, serif;font-weight:700;z-index:100}
+.underline,.hover:hover{text-decoration:underline}
+#score_container > *,.imix_img,.imix_text{float:left}
